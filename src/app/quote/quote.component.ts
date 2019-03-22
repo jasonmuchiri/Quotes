@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-      new Quote('life is short, smile while you still have teeth'),
+      new Quote('life is short, smile while you still have teeth','Author:Sanjay'),
   ]
 
   constructor() { }

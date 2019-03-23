@@ -11,6 +11,15 @@ export class QuoteComponent implements OnInit {
       new Quote(1,'life is short, smile while you still have teeth','Author:Sanjay'),
   ]
 
+  toogleDetails(index){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
+
+  deleteQuote(isRead,index){
+    if (isRead){
+      this.quotes.splice(index,1);
+    }
+  }
   constructor() { }
 
   ngOnInit() {

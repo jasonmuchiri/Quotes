@@ -8,6 +8,6 @@ import {Quote} from './quote'
 })
 export class AppComponent {
   quotes = [
-    new Quote(1,'life is short, smile while you still have teeth'),
+    new Quote(1,'life is short, smile while you still have teeth','Author:Sanjay'),
   ]
 }

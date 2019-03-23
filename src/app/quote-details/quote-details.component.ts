@@ -11,7 +11,7 @@ export class QuoteDetailsComponent implements OnInit {
   @Input() quote:Quote;
   @Output() isRead = new EventEmitter<boolean>();
 
-  goalDelete(read:boolean){
+  quoteDelete(read:boolean){
     this.isRead.emit(read);
   }
   constructor() { }

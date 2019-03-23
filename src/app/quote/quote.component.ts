@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-      new Quote(1,'life is short, smile while you still have teeth','Author:Sanjay'),
+      new Quote(1,'life is short, smile while you still have teeth','Author:Sanjay',new Date(2019,2,22) ),
   ]
 
   toogleDetails(index){

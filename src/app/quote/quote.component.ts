@@ -8,7 +8,7 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-      new Quote(1,'life is short, smile while you still have teeth','Author:Sanjay',new Date(2019,2,22) ),
+      new Quote(1,'life is short, smile while you still have teeth','Author: Sanjay',new Date(2019,2,22) ),
   ]
 
   toogleDetails(index){
@@ -17,9 +17,14 @@ export class QuoteComponent implements OnInit {
 
   deleteQuote(isRead,index){
     if (isRead){
+      let toDelete=confirm(`Are you sure you want to delete ~${this.quotes[index].name}`)
+      if(toDelete){
+
       this.quotes.splice(index,1);
     }
   }
+}
+
   constructor() { }
 
   ngOnInit() {

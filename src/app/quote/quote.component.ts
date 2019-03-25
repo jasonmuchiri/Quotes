@@ -10,6 +10,7 @@ export class QuoteComponent implements OnInit {
   quotes = [
       new Quote(1,'life is short, smile while you still have teeth','Author: Sanjay',new Date(2019,2,22) ),
       new Quote(1,'Your life cannot fall apart if you never had it together!','Author: Nicko mann',new Date(2019,2,23) ),
+      new Quote(1,'If you think nobody cares if you are alive, try missing a couple of payments.','Author: Kiploti',new Date(2019,1,28) ),
   ]
 
   toogleDetails(index){

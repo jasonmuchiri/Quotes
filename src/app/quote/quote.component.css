@@ -1,0 +1,11 @@
+.main{
+  font-size: 25px;
+  font-family: serif;
+}
+body {
+  background-image: url("clouds.jpg");
+  padding-left: 100px;
+}
+h1 {
+  font-family: serif;
+}

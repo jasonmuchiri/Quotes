@@ -31,6 +31,15 @@ export class QuoteComponent implements OnInit {
     quote.creationDate = new Date(quote.creationDate)
     this.quotes.push(quote)
   }
+      upvotes:number = 0;
+      downvotes:number = 0;
+      upvote(){
+        this.upvotes += 1;
+      }
+      downvote(){
+        this.downvotes += 1;
+      }
+
 
   constructor() { }
 

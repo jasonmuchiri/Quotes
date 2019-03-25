@@ -19,7 +19,7 @@
       </div>
       <div class="form-group">
         <label for="creation">Creation Date</label>
-        <input type="date" id="creation" [(ngModel)]="newQuote.creationDate" name="creationDate" #creationDate="ngModel" required>
+        <input type="date" id="creation" [(ngModel)]="newQuote.createdDate" name="creationDate" #creationDate="ngModel" required>
         <div [hidden]="creationDate.valid || creationDate.pristine" class="alert alert-danger">
           <p> Creation Date is Required </p>
         </div>

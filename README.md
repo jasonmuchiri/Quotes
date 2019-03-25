@@ -20,7 +20,7 @@ Then you start working on it right away.
 
 ## project's link to gh-pages
 
-
+ https://jasonmuchiri.github.io/Quotes/
 
 ## BDD
 

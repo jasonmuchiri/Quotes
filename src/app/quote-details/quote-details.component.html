@@ -1,3 +1,6 @@
 <p>{{quote.description}}</p>
 <p>Created {{quote.createdDate|dateCount}} days ago.</p>
+<button type="button" class="btn btn-success" name="button" (click) = "upvote()">Upvote</button><span id="vote">{{upvotes}}</span>
+<button type="button" class="btn btn-danger" name="button" (click) = 'downvote()'>Downvote</button><span id="vote"> {{downvotes}} </span>
+
 <button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote </button>

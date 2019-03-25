@@ -9,6 +9,7 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
   quotes = [
       new Quote(1,'life is short, smile while you still have teeth','Author: Sanjay',new Date(2019,2,22) ),
+      new Quote(1,'Your life cannot fall apart if you never had it together!','Author: Nicko mann',new Date(2019,2,23) ),
   ]
 
   toogleDetails(index){
@@ -24,6 +25,12 @@ export class QuoteComponent implements OnInit {
     }
   }
 }
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id=quoteLength+1;
+    quote.creationDate = new Date(quote.creationDate)
+    this.quotes.push(quote)
+  }
 
   constructor() { }
 

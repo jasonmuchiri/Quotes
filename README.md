@@ -1,6 +1,49 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+## Author
+
+[Jason Muchiri](https://github.com/jasonmuchiri)
+
+## description
+
+An application where users can view and also create quotes.
+
+## project setup instructions
+
+To start using this project use the following commands:
+
+- `git clone` this clones the repository to your local device.
+- `npm install -g`
+- `ng serve`
+
+Then you start working on it right away.
+
+## project's link to gh-pages
+
+
+
+## BDD
+
+|Behaviour|Input Example|Output Example|
+|---------|-------------|--------------|
+|qoute|Always remember that you're unique. Just like everyone else.|Always remember that you're unique. Just like everyone else.|
+
+## contacts
+
+email me here:
+ jasonmkinyua@gmail.com
+
+## licence information
+
+MIT License
+
+Copyright (c) 2019 cooldragon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Development server
 
